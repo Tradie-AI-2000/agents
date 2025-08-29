@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: tradie_ai_marketing_manager
+Version: 0.1.0
+Summary: An AI-powered marketing manager for tradespeople to build brand awareness and generate leads.
+Requires-Python: >=3.10
+Requires-Dist: google-adk
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"

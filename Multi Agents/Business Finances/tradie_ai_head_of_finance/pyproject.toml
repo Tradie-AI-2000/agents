@@ -1,0 +1,17 @@
+[project]
+name = "tradie_ai_head_of_finance"
+version = "0.1.0"
+description = "A multi-agent system for comprehensive financial management for TradieAI."
+dependencies = [
+    "google-adk",
+    "python-dotenv",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-asyncio",
+]

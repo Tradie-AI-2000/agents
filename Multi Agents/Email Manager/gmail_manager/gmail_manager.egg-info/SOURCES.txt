@@ -1,0 +1,15 @@
+pyproject.toml
+gmail_manager/agent.py
+gmail_manager/prompt.py
+gmail_manager/tools.py
+gmail_manager.egg-info/PKG-INFO
+gmail_manager.egg-info/SOURCES.txt
+gmail_manager.egg-info/dependency_links.txt
+gmail_manager.egg-info/requires.txt
+gmail_manager.egg-info/top_level.txt
+gmail_manager/sub_agents/booking_link_inserter/__init__.py
+gmail_manager/sub_agents/booking_link_inserter/agent.py
+gmail_manager/sub_agents/email_categorizer/__init__.py
+gmail_manager/sub_agents/email_categorizer/agent.py
+gmail_manager/sub_agents/email_drafter/__init__.py
+gmail_manager/sub_agents/email_drafter/agent.py

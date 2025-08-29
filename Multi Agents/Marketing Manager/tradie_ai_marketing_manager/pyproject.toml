@@ -1,0 +1,17 @@
+[project]
+name = "tradie_ai_marketing_manager"
+version = "0.1.0"
+description = "An AI-powered marketing manager for tradespeople to build brand awareness and generate leads."
+dependencies = [
+    "google-adk",
+    "python-dotenv",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-asyncio",
+]

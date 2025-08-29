@@ -1,0 +1,19 @@
+[project]
+name = "bdm_assistant"
+version = "0.1.0"
+description = "A multi-agent system to assist Business Development Managers in New Zealand by automating and streamlining key tasks."
+dependencies = [
+    "google-adk",
+    "python-dotenv",
+    "requests",
+    "beautifulsoup4",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-asyncio",
+]

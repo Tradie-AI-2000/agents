@@ -1,0 +1,17 @@
+pyproject.toml
+bdm_assistant/agent.py
+bdm_assistant/prompt.py
+bdm_assistant/tools.py
+bdm_assistant.egg-info/PKG-INFO
+bdm_assistant.egg-info/SOURCES.txt
+bdm_assistant.egg-info/dependency_links.txt
+bdm_assistant.egg-info/requires.txt
+bdm_assistant.egg-info/top_level.txt
+bdm_assistant/sub_agents/client_engagement_agent/__init__.py
+bdm_assistant/sub_agents/client_engagement_agent/agent.py
+bdm_assistant/sub_agents/lead_generation_agent/__init__.py
+bdm_assistant/sub_agents/lead_generation_agent/agent.py
+bdm_assistant/sub_agents/market_research_agent/__init__.py
+bdm_assistant/sub_agents/market_research_agent/agent.py
+bdm_assistant/sub_agents/sales_material_agent/__init__.py
+bdm_assistant/sub_agents/sales_material_agent/agent.py

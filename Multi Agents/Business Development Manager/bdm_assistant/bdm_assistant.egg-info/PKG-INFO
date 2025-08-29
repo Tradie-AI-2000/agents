@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: bdm_assistant
+Version: 0.1.0
+Summary: A multi-agent system to assist Business Development Managers in New Zealand by automating and streamlining key tasks.
+Requires-Python: >=3.10
+Requires-Dist: google-adk
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"

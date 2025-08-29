@@ -1,0 +1,17 @@
+[project]
+name = "gmail_manager"
+version = "0.1.0"
+description = "An intelligent multi-agent system for managing Gmail, capable of reading, categorizing, and selectively drafting personalized email replies, including booking links."
+dependencies = [
+    "google-adk",
+    "python-dotenv",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-asyncio",
+]

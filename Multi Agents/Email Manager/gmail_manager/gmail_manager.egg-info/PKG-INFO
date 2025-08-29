@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: gmail_manager
+Version: 0.1.0
+Summary: An intelligent multi-agent system for managing Gmail, capable of reading, categorizing, and selectively drafting personalized email replies, including booking links.
+Requires-Python: >=3.10
+Requires-Dist: google-adk
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
